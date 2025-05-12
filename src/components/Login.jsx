@@ -4,8 +4,8 @@ export default function Login() {
   const [role, setRole] = useState("vendor");
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#1e222a] text-white px-4">
-      <div className="w-full max-w-md bg-[#1e222a] p-10 rounded-xl shadow-md space-y-8">
+    <div className="min-h-screen flex items-center justify-center bg-[#1e222a] text-white px-4 ">
+      <div className="w-full max-w-md bg-[#1e222a] p-10 rounded-xl shadow-md space-y-8 ">
         
         {/* Logo */}
         <div className="flex justify-center">
@@ -50,12 +50,12 @@ export default function Login() {
           <input
             type="email"
             placeholder="Email"
-            className="w-full px-4 py-2 bg-[#2b2f38] rounded-md placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#DFD0B8]"
+            className="w-full px-4 py-2 text-[#948979] bg-[#2b2f38] rounded-md placeholder-[#948979] focus:outline-none focus:ring-2 focus:ring-[#DFD0B8]"
           />
           <input
             type="password"
             placeholder="Password"
-            className="w-full px-4 py-2 bg-[#2b2f38] rounded-md placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#DFD0B8
+            className="w-full px-4 py-2 text-[#948979] bg-[#2b2f38] rounded-md placeholder-[#948979] focus:outline-none focus:ring-2 focus:ring-[#DFD0B8
             ]"
           />
         </div>

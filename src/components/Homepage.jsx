@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react';
 
 const Homepage = () => {
   return (
+
     <div className="w-full min-h-screen bg-[#222831] text-[#DFD0B8] flex flex-col">
       {/* Navbar */}
       <nav className="flex justify-between items-center px-12 py-6">
@@ -32,6 +33,7 @@ const Homepage = () => {
             <span className="text-[#d6c3a1]">Pipeline.</span><br />
             Streamlined.
           </h1>
+          
         </div>
 
         {/* Illustration */}
